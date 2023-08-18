@@ -5,5 +5,5 @@ This project attempts to solve the problem of Transportation and Logistics. It a
 MongoDB, Express.js, Node.js, HTML, CSS, JavaScript
 
 ## Installation guide
-npm i  <br>
-npm run dev
+* npm i  <br>
+* npm run dev
