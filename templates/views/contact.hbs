@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact Us</title>
+    {{>header}}
+    <link rel="stylesheet" href="../css/about.css">
+</head>
+
+<body>
+    {{!-- {{>navbar}} --}}
+    <section>
+        <div class="content"style="color: white ;">
+            <p>Adress: Fictional address <br>Email: soyotions@gmail.com<br> Contact Number: 9876543210</p>
+            <hr size="3" noshade> <br>
+            <button onclick="Previous()" class="btn btn-danger">Go Back</button>
+            
+        </div>
+
+        <div class="content">
+            
+            <form class="form-control" action="mailto: soynotions@gmail.com" method="post" enctype="UTF-8">
+                <label>Your Name: </label>
+                <input class="form-control" type="text" name="YourName" value=""><br>
+                <label>Your Email: </label>
+                <input class="form-control" type="email" name="YourEmail" value="">
+                <br>
+                <label>Your Message: </label><br>
+                <textarea class="form-control" name="YourMessage" id="" cols="30" rows="10"></textarea>
+                <br><input class="form-control" type="submit" name=""><br>
+            </form>
+        </div>
+    </section>
+    <script>
+        function Previous() {
+            window.history.go(-1);
+        }
+    </script>
+</body>
+
+</html>
